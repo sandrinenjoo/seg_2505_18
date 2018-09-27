@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyCalculator</string>
+    <string name="button_07" />
+    <string name="Button_07">7</string>
+    <string name="Button_08">8</string>
+    <string name="Button_09">9</string>
+    <string name="Button_plus">+</string>
+    <string name="Button_04">4</string>
+    <string name="Button_05">5</string>
+    <string name="Button_06">6</string>
+    <string name="Button_minus">-</string>
+    <string name="Button_01">1</string>
+    <string name="Button_02">2</string>
+    <string name="Button_03" >3</string>
+    <string name="Button_mult">*</string>
+    <string name="Button_00">0</string>
+    <string name="Button_div">/</string>
+    <string name="Button_equal">=</string>
+    <string name="Button_clear">CE</string>
+    <string name="Button_dot">.</string>
+</resources>

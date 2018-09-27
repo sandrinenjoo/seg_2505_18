@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="93dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text=""
+                android:id="@+id/resultEdit"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn07"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btn07Click"
+                    android:text="@string/Button_07" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn08"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btn08Click"
+                    android:text="@string/Button_08" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn09"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btn09Click"
+                    android:text="@string/Button_09" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn0Plus"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btnAddClick"
+                    android:text="@string/Button_plus" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn04"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btn04Click"
+                    android:text="@string/Button_04" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn05"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btn05Click"
+                    android:text="@string/Button_05" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn06"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btn06Click"
+                    android:text="@string/Button_06" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn0Minus"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btnMinusClick"
+                    android:text="@string/Button_minus" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn01"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btn01Click"
+                    android:text="@string/Button_01" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn02"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btn02Click"
+                    android:text="@string/Button_02" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn03"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btn03Click"
+                    android:text="@string/Button_03" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn0Times"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btnMultiplyClick"
+                    android:text="@string/Button_mult" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btnClear"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btnClearClick"
+                    android:text="@string/Button_clear" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn00"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btn00Click"
+                    android:text="@string/Button_00" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btnDot"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btnDotClick"
+                    android:text="@string/Button_dot" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btnDiv"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btnDivideClick"
+                    android:text="@string/Button_div" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:id="@+id/btnResult"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="btnResultClick"
+                    android:text="@string/Button_equal" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
